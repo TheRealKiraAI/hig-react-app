@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import Button from '@hig/button';
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
         <p>
           HIG Testing App
         </p>
+        <Button title="Hello, world!" />
       </header>
     </div>
   );
