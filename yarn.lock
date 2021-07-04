@@ -1282,6 +1282,37 @@
     emotion "^10.0.0"
     prop-types "^15.7.1"
 
+"@hig/icons@^3.2.0", "@hig/icons@^3.4.0":
+  version "3.4.1"
+  resolved "https://registry.yarnpkg.com/@hig/icons/-/icons-3.4.1.tgz#4fb4410165d46f7dc6c75c7c4cdf7cecea67396f"
+  integrity sha512-lAhF4ZZjARiUWO646Z835QIeVAAl2QlrRqF/nBzeMiJrLC86xrTldTuAUaOnQyu4hxBII4jts9voYRJ1iqeeIA==
+  dependencies:
+    emotion "^10.0.0"
+
+"@hig/menu@^1.1.0":
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/@hig/menu/-/menu-1.1.0.tgz#8fc193190ba80c5aa7ba38d111896dfd3069f49f"
+  integrity sha512-ZP0L4G743WsOqRd4tpFNkwjtVhp8/298McdBwZwgKYEx7VrGEYgXJF3NKW4l32gUx/eZxkUr24TVxANScIYNsQ==
+  dependencies:
+    "@hig/behaviors" "^1.1.1"
+    "@hig/icons" "^3.4.0"
+    "@hig/utils" "^0.4.0"
+    prop-types "^15.7.1"
+
+"@hig/tabs@^1.3.0":
+  version "1.3.0"
+  resolved "https://registry.yarnpkg.com/@hig/tabs/-/tabs-1.3.0.tgz#969beef81862eb795d105d705a7900e612421f21"
+  integrity sha512-kJP0t8QlIvmF101h5VtSe7M41r1JqSQtFsSjNH/q5pZHmDZZKaIttIGbHS0DQWIo3B1LuX0yxTwh5d8/xKb7+g==
+  dependencies:
+    "@hig/behaviors" "^1.1.1"
+    "@hig/icons" "^3.2.0"
+    "@hig/typography" "^1.0.3"
+    "@hig/utils" "^0.4.0"
+    emotion "^10.0.0"
+    lodash.memoize "^4.1.2"
+    prop-types "^15.7.1"
+    react-lifecycles-compat "^3.0.4"
+
 "@hig/theme-context@^3.0.1":
   version "3.0.1"
   resolved "https://registry.yarnpkg.com/@hig/theme-context/-/theme-context-3.0.1.tgz#a0a6fee2a0eda39e0845b6cf50a93612481123fe"
@@ -1296,6 +1327,14 @@
   integrity sha512-qH6PZSq3ebl92ORMkrK9lGL1ZwTZlo9CvWDp+bDmoamToZpR8k0vWRmy9IA9Ue8I10m6FLqjLJrVnFDQIp1Mag==
   dependencies:
     tinycolor2 "^1.4.1"
+
+"@hig/typography@^1.0.3":
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/@hig/typography/-/typography-1.2.0.tgz#c5029081cfbab8d51e7c1aea2e2e7c648f56408d"
+  integrity sha512-5XLuTHScGYBQfLQ1fziIr/sdZ8Tf54wzTpfoylgrg+LH93xSWynqaYlB4oqZlHYXwQKevbI/EtI0YRlB/HStmw==
+  dependencies:
+    emotion "^10.0.0"
+    prop-types "^15.7.1"
 
 "@hig/utils@^0.4.0":
   version "0.4.0"
@@ -9134,6 +9173,11 @@ react-is@^17.0.1:
   version "17.0.1"
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-17.0.1.tgz#5b3531bd76a645a4c9fb6e693ed36419e3301339"
   integrity sha512-NAnt2iGDXohE5LI7uBnLnqvLQMtzhkiAOLXTmv+qnF9Ky7xAPcX8Up/xWIhxvLVGJvuLiNc4xQLtuqDRzb4fSA==
+
+react-lifecycles-compat@^3.0.4:
+  version "3.0.4"
+  resolved "https://registry.yarnpkg.com/react-lifecycles-compat/-/react-lifecycles-compat-3.0.4.tgz#4f1a273afdfc8f3488a8c516bfda78f872352362"
+  integrity sha512-fBASbA6LnOU9dOU2eW7aQ8xmYBSXUIWr+UmF9b1efZBazGNO+rcXT/icdKnYm2pTwcRylVUYwW7H1PHfLekVzA==
 
 react-refresh@^0.8.3:
   version "0.8.3"
